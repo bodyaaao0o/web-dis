@@ -8,6 +8,7 @@ body {
     min-height: 100%;
     font-family: "Mulish";
     line-height: 1.6;
+    background: #fff;
 }
 
 .container {
@@ -17,9 +18,7 @@ body {
 }
 
 header {
-    background: #fff;
     padding: 20px 0;
-    border-bottom: 1px solid #ddd;
 }
 
 header .logo {
@@ -42,13 +41,19 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+}
+
+.bold__link {
+    font-weight: 700;
+}
+
+.nbold__link {
+    font-weight: normal;
 }
 
 
 
 .hero {
-    background-color: #f4f4f4;
     padding: 60px 0;
     text-align: left;
 }
@@ -190,8 +195,6 @@ header nav ul li a {
     font-size: 18px;
     line-height: 30px;
     color: #7D7987;
-
-
 }
 
 .services-grid {
@@ -201,13 +204,18 @@ header nav ul li a {
     margin: 80px 240px;
 }
 
-.service {
+/* .services__all {
     display: flex;
     justify-content: center;
+}  */
+
+.service {
     width: 100%;
-    height: 347px;
+    height: auto;
     border: 1px solid #fff;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
 }
 
 .service-info {
@@ -263,7 +271,7 @@ header nav ul li a {
 
 
 footer {
-    background-color: #007bff;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     color: #fff;
     padding: 40px 0;
     text-align: center;
@@ -295,3 +303,4 @@ footer a {
     color: #fff;
     font-weight: bold;
 }
+
