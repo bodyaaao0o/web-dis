@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/button.css">
 </head>
 
 <body>
@@ -19,13 +22,19 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="Trafalgar Logo">
             </div>
-            <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+            <nav class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Find a Doctor</a></li>
-                    <li><a href="#">Apps</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="#" class="bold__link">Home</a></li>
+                    <li><a href="#" class="nbold__link">Find a Doctor</a></li>
+                    <li><a href="#" class="nbold__link">Apps</a></li>
+                    <li><a href="#" class="nbold__link">Testimonials</a></li>
+                    <li><a href="#" class="nbold__link">About Us</a></li>
                 </ul>
             </nav>
         </div>
