@@ -1,4 +1,7 @@
 footer {
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     color: #fff;
     padding: 40px 0;
@@ -17,7 +20,7 @@ footer {
 
 .footer-link {
     display: flex;
-    gap: 50px;
+    gap: 80px; 
     list-style: none;
 }
 
