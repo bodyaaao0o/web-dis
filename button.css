@@ -6,21 +6,13 @@
     border-radius: 55px;
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.5s;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
 }
 
 .btn:hover {
     border: 1px solid #458FF6;
     background-color: #fff;
-    border-radius: 55px;
     color: #007bff;
-    padding: 15px 30px;
-    cursor: pointer;
-}
-.button__12 {
-    margin-top: 69px;
-    display: grid;
-    place-items: center;
 }
 
 .btn__2s {
@@ -34,4 +26,11 @@
     border-radius: 55px;
     cursor: pointer;
     text-decoration: none;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.btn__2s:hover {
+    background-color: #458FF6;
+    color: #fff;
+    border-color: #007bff;
 }
